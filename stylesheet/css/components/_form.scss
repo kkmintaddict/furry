@@ -1,0 +1,13 @@
+
+.form{
+    border-radius: .3rem;
+    color: $dark;
+}
+
+.was-validated .form-control:valid, .form-control.is-valid {
+    background-image:none !important;
+}
+.form-select.is-valid:not([multiple]):not([size]), .form-select.is-valid:not([multiple])[size="1"], .was-validated .form-select:valid:not([multiple]):not([size]), .was-validated .form-select:valid:not([multiple])[size="1"] {
+    background-image:none !important;
+}
+

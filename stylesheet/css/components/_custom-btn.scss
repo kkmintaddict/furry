@@ -1,0 +1,37 @@
+$box-shadow-sp:  rgba(0, 0, 0, 0.07) 0px .5px .5px, rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px;
+
+$theme-box-shadaw: 0 0 0 0.25rem rgb(249, 199, 69 ,.5);
+
+.btn-special{
+    &:hover,&:focus,&:active{
+        box-shadow: $box-shadow-sp;
+        &.btn-warning:active:focus{
+            box-shadow: $box-shadow-sp;
+        }
+    }
+    &:active{
+        transform: translateY(1px);
+    }   
+}
+.btn-theme{
+    &:hover,&:focus,&:active,&.active{
+        background-color: $warning !important;
+        border-color: $warning !important;
+        color: $dark !important;   
+    }
+    &:focus{
+        box-shadow: $theme-box-shadaw!important;
+    }
+    &.btn-outline-secondary:focus{
+        box-shadow: none;
+    }   
+}
+.btn-yellow{
+    &:hover,&:focus{
+        box-shadow: $theme-box-shadaw!important;
+    }
+    &.btn-warning:focus{
+        box-shadow: none;
+    }   
+}
+

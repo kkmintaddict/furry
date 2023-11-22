@@ -1,0 +1,98 @@
+
+
+.drawMe{
+    opacity: 0;
+    width: 140px;
+    height: 152px;
+    z-index: $zindex-fixed;
+}
+.drawMe.show{
+    opacity: 1;
+    width: 140px;
+    height: 152px;
+    z-index: $zindex-fixed;
+}
+.img-change-box{
+    height: 64px;
+    width: 160px;
+    background-image: url(/images/bubble.png);
+    z-index: $zindex-fixed;
+}
+
+//
+
+.designChange01{
+    background-image: url(/images/dog01.png);
+    background-size: cover;
+    .change.hide{
+        opacity: 0;
+        transition: all .2s;
+    }
+}
+.designChange02{
+    background-image: url(/images/dog02.png);
+    background-size: cover;
+    .change.hide{
+        opacity: 0;
+        transition: all .2s;
+    }
+}
+.designChange03{
+    background-image: url(/images/dog03.png);
+    background-size: cover;
+    .change.hide{
+        opacity: 0;
+        transition: all .2s;
+    }
+}
+
+//
+.adoptChange01{
+    background-image: url(/images/dog01.png);
+    background-size: cover;
+    .change.hide{
+        opacity: 0;
+        transition: all .2s;
+    }
+}
+.adoptChange02{
+    background-image: url(/images/dog02.png);
+    background-size: cover;
+    .change.hide{
+        opacity: 0;
+        transition: all .2s;
+    }
+}
+.adoptChange03{ 
+    background-image: url(/images/dog03.png);
+    background-size: cover;
+    .change.hide{
+        opacity: 0;
+        transition: all .2s;
+    }
+}
+.adoptChange04{ 
+    background-image: url(/images/dog01.png);
+    background-size: cover;
+    .change.hide{
+        opacity: 0;
+        transition: all .2s;
+    }
+}
+.adoptChange05{
+    background-image: url(/images/dog02.png);
+    background-size: cover;
+    .change.hide{
+        opacity: 0;
+        transition: all .2s;
+    }
+}
+
+.adoptChange06{
+    background-image: url(/images/dog03.png);
+    background-size: cover;
+    .change.hide{
+        opacity: 0;
+        transition: all .2s;
+    }
+}

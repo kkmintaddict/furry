@@ -1,0 +1,16 @@
+$fs-l: 32px;
+$fs-m: 24px;
+$fs-s: 16px;
+
+.navbar-light, .navbar-nav, .nav-link.active{
+   color: $warning !important;
+   &:hover,&:active{
+      color: $warning !important;
+      .nav-link {
+         &.active,
+         &.show {
+           color: var(--#{$prefix}body-emphasis-color) !important;
+         }
+       }
+   }
+}

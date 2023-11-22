@@ -1,0 +1,40 @@
+.header-index{
+    height: 880px;
+    background-image:url(/images/home@2x.png) ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    @media (max-width: 576px) { 
+        height: 90vh;
+        background-image:url(/images/home_mobile@2x.png) ;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+}
+.header-service{
+    height: 380px;  
+    @media (max-width: 768px) { 
+        height: 320px;
+    }
+    .sm-banner{
+        position: absolute;
+        bottom: 0;
+        max-width: 360px;
+        height: auto;
+    }
+}
+
+.header-form{
+    height: 380px;  
+    @media (max-width: 768px) { 
+        height: 320px;
+    }
+    .sm-banner{
+        position: absolute;
+        bottom: 0;
+        max-width: 360px;
+        height: auto;
+    }
+}

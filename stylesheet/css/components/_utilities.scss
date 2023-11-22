@@ -1,0 +1,37 @@
+$fs-l: 32px;
+$fs-m: 24px;
+$fs-s: 20px;
+$fs-xs: 16px;
+
+.bg-cover{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.bg-attachment-fixed{
+    background-attachment: fixed;
+}
+.object-fit-cover{
+    object-fit: cover;
+}
+.theme-bg{
+    background-image: url(/images/wallpaper.png);
+}
+.theme-font-m{
+    font-size: $fs-m;
+    font-family: "Kalam", sans-serif;
+}
+.theme-font-xs{
+    font-size: $fs-xs;
+    font-family: "Kalam", sans-serif;
+}
+.theme-font-s{
+    font-size: $fs-s;
+    font-family: "Kalam", sans-serif;
+}
+.text-hide{
+    text-indent: 101%; 
+    overflow: hidden;   
+    white-space: nowrap; 
+    background: url(/images/logo.png) no-repeat center center/contain;
+}
