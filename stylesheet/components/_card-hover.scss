@@ -1,0 +1,15 @@
+$bg-dark-gradient: linear-gradient( 180deg, rgba(0,0,0,0), rgba(0,0,0,0.4));
+
+
+.card-hover{
+    .card-text,.card-title{
+        opacity: 0;
+    }
+    &:hover{
+        background-image: $bg-dark-gradient;
+        .card-text,.card-title{
+            opacity: 1;
+            color: #fff;
+        }
+    }
+}
