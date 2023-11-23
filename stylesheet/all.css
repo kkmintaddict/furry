@@ -26169,9 +26169,12 @@ textarea.form-control-lg {
   display: inline;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
+  .nav-item:hover .designer, .nav-item:hover .designer.active {
+    display: none !important;
+  }
   .designer, .designer.active {
-    display: none;
+    display: none !important;
   }
 }
 .form {

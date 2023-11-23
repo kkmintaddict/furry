@@ -18,8 +18,13 @@
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media (max-width: 768px) {
+    .nav-item:hover{
+      .designer , .designer.active {
+        display: none !important;
+      } 
+    }
     .designer , .designer.active {
-      display: none;
+      display: none !important;
     }
   }
