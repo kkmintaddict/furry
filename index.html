@@ -20,13 +20,29 @@
 </head>
 
 <style>
-
+.text-hide{
+    text-indent: 101%; 
+    overflow: hidden;   
+    white-space: nowrap; 
+    background: url(images/logo.png) no-repeat center center/contain;
+}
 .img-change-box{
     height: 64px;
     width: 160px;
     background-image: url(images/bubble.png);
 }
+.header-index{
+    height: 880px;
+    background:url(images/home@.png) no-repeat center center/cover ;
 
+    @media (max-width: 576px) { 
+        height: 90vh;
+        background:url(images/home_mobile.png) no-repeat center center/cover ;
+    }
+}
+.theme-bg{
+    background-image: url(images/wallpaper.png);
+}
 </style>
 
 <body>
