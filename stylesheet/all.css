@@ -26165,14 +26165,11 @@ textarea.form-control-lg {
 .nav-item:hover .designer {
   display: inline;
 }
-.nav-item:hover .designer.active {
+.nav-item .designer.active {
   display: inline;
 }
 
 @media (max-width: 768px) {
-  .nav-item:hover .designer, .nav-item:hover .designer.active {
-    display: none !important;
-  }
   .designer, .designer.active {
     display: none !important;
   }
