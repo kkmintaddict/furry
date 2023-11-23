@@ -1,7 +1,7 @@
 {
-  "name": "landing-page",
+  "name": "furry-main",
   "version": "1.0.0",
-  "description": "theme-color ##0DCAF0",
+  "description": "theme-color: #F9C745v Font-color: #3A3A3A Font-size-l- 32px Font-size-m- 24px",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

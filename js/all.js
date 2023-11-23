@@ -1,39 +1,49 @@
 $(document).ready(function() {
 
-    $(".img-change").hover(function() {  
+    $(".img-change").hover(
+        function() {  
             $(".drawMe").toggleClass('show');
         });
 
-    $(".designChange01").hover(function() {  
+    $(".designChange01").hover(
+        function() {  
             $("#chang01").toggleClass('hide');
         });
-    $(".designChange02").hover(function() {  
+    $(".designChange02").hover(
+        function() {  
             $("#chang02").toggleClass('hide');
         });
-    $(".designChange03").hover(function() {  
+    $(".designChange03").hover(
+        function() {  
             $("#chang03").toggleClass('hide');
         });
 
 
+
     //
 
-    $(".adoptChange01").hover(function() {  
+    $(".adoptChange01").hover(
+        function() {  
             $("#puppy01").toggleClass('hide');
         });
     
-    $(".adoptChange02").hover(function() {  
+    $(".adoptChange02").hover(
+        function() {  
             $("#puppy02").toggleClass('hide');
         });
 
-    $(".adoptChange03").hover(function() {  
+    $(".adoptChange03").hover(
+        function() {  
             $("#puppy03").toggleClass('hide');
         });
         
-    $(".adoptChange04").hover(function() {  
+    $(".adoptChange04").hover(
+        function() {  
             $("#puppy04").toggleClass('hide');
         });
 
-    $(".adoptChange05").hover(function() {  
+    $(".adoptChange05").hover(
+        function() {  
             $("#puppy05").toggleClass('hide');
         });
 
@@ -41,14 +51,9 @@ $(document).ready(function() {
             $("#puppy06").toggleClass('hide');
         });
 
-
-
     //
-    $(".designer").hover(function() {  
-        $(this).addClass('active').siblings().removeClass('active');
-    });
+        
 
-    
     
 
     // Example starter JavaScript for disabling form submissions if there are invalid fields

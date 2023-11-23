@@ -1,7 +1,25 @@
 
-.designer{
+.designer {
     display: none;
-}
-.designer.active{
-    display: inline;
-}
+    &.active {
+      display: inline;
+    }
+  }
+  
+  .nav-item {
+    &:hover {
+      .designer {
+        display: inline;
+      }
+  
+      .designer.active {
+        display: inline;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .designer , .designer.active {
+      display: none;
+    }
+  }

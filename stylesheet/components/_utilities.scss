@@ -3,6 +3,12 @@ $fs-m: 24px;
 $fs-s: 20px;
 $fs-xs: 16px;
 
+
+:root{
+    --bs-dark-rgb: 58, 58, 58;
+    --bs-form-invalid-border-color: #ab3326;
+}
+
 .bg-cover{
     background-size: cover;
     background-position: center center;

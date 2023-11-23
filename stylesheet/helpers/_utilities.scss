@@ -75,12 +75,11 @@ $utilities: map-merge(
     // scss-docs-start utils-shadow
     "shadow": (
       property: box-shadow,
-      responsive: true,
       class: shadow,
       values: (
-        null: $box-shadow,
-        sm: $box-shadow-sm,
-        lg: $box-shadow-lg,
+        null: var(--#{$prefix}box-shadow),
+        sm: var(--#{$prefix}box-shadow-sm),
+        lg: var(--#{$prefix}box-shadow-lg),
         none: none,
       )
     ),
@@ -511,14 +510,6 @@ $utilities: map-merge(
       class: fs,
       values: $font-sizes
     ),
-    "font-size-static": (
-      rfs: true,
-      property: font-size,
-      class: fs-s,
-      values: (
-        48: 48px
-      )
-    ),
     "font-style": (
       property: font-style,
       class: fst,
@@ -808,19 +799,8 @@ $utilities: map-merge(
       property: z-index,
       class: z,
       values: $zindex-levels,
-    ),
+    )
     // scss-docs-end utils-zindex
-    //custom
-    "bg-attachment-fixed": (
-      property: background-attachment,
-      class: "bg-attachment",
-      values: fixed,
-    ),
-    "object-fit-cover": (
-        property: object-fit,
-        class: "object-fit",
-        values: cover,
-      )
   ),
   $utilities
 );
