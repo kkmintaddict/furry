@@ -18,44 +18,19 @@
   <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="stylesheet/all.css">
 </head>
-
 <style>
-.text-hide{
-    text-indent: 101%; 
-    overflow: hidden;   
-    white-space: nowrap; 
-    background: url(images/logo.png) no-repeat center center/contain;
-}
-.img-change-box{
-    height: 64px;
-    width: 160px;
-    background-image: url(images/bubble.png);
-}
-.header-index{
-    height: 880px;
-    background-image:url(images/home.png) ;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-
+.header-index{ 
+  background-image: url(images/home.png);
     @media (max-width: 576px) { 
-        height: 90vh;
         background-image:url(images/home_mobile.png) ;
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
     }
 }
-.theme-bg{
-    background-image: url(images/wallpaper.png);
-}
 </style>
-
 <body>
     <!-- 導覽列-->
     <nav class="navbar navbar-expand-lg navbar-light bg-white border-4 border-warning border-bottom fixed-top">
         <div class="container">
-          <a class="navbar-brand" href="index.html"><h1 class="my-auto text-hide">撿到寶</h1></a>
+          <a class="navbar-brand" href="index.html"><h1 class="my-auto text-hide" style="background: url(images/logo.png) no-repeat center center/contain;">撿到寶</h1></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -90,7 +65,7 @@
       <!-- 換圖 -->
       <div class="img-change">
         <a href="form.html">
-          <div class="img-change-box d-none d-md-flex align-items-center ps-4 text-dark" style="position: fixed; bottom: 160px; right: 90px;">
+          <div class="img-change-box d-none d-md-flex align-items-center ps-4 text-dark" style="position: fixed; bottom: 160px; right: 90px; background-image:url(images/bubble.png) ;">
             <p>客製我的毛孩圖</p>
           </div>
           <img src="images/btn.png" class="drawMe d-none d-md-inline ms-auto show" alt="畫我01" style="position: fixed; bottom: 0; right: 100px;">  
@@ -99,10 +74,9 @@
       </div>
    
       <!-- 介紹 -->
-      <section class="theme-bg">
-        <div class="container py-5 px-3">
-          <div class="row row-cols-1 row-cols-lg-2 flex-row-reverse d-flex align-items-lg-center my-3 g-5">
-
+      <section class="theme-bg" style="background: url(images/wallpaper.png);">
+        <div class="container py-5">
+          <div class="row row-cols-1 row-cols-lg-2 flex-row-reverse d-flex align-items-lg-center ">
               <div class="col">
                   <h3 class="h4 theme-font-m text-warning text-center text-md-start"">Service</h3>
                   <h2 class="text-dark fw-bold lh-lg text-center text-md-start">您出錢 我出力 <br class="d-lg-none">一起助浪浪</h2>
@@ -123,13 +97,13 @@
       </section>
 
       <!-- 近期作品 -->
-      <section class="theme-bg">
-          <div class="container py-5">
+      <section class="theme-bg" style="background: url(images/wallpaper.png);">
+          <div class="container py-4">
             <div class="text-center mb-5">
               <img src="images/title01.png" class="img-fluid" alt="近期作品">
             </div>
-                <ul class="list-unstyled row row-cols-2 row-cols-lg-4 g-3 mb-5"> 
-                  <li class="col">
+                <ul class="list-unstyled row row-cols-2 row-cols-lg-4 mb-0 justify-content-center g-3"> 
+                  <li class="col ">
                     <div class="card border-0">
                       <img src="images/card06.png" class="card-img w-100" alt="card06">
                       <div class="card-img-overlay card-hover d-flex align-items-end">
@@ -141,7 +115,7 @@
                     </div>
                   </li>
 
-                  <li class="col">
+                  <li class="col ">
                     <div class="card border-0">
                       <img src="images/card05.png" class="card-img w-100" alt="card05">
                       <div class="card-img-overlay card-hover d-flex align-items-end">
@@ -153,7 +127,7 @@
                     </div>
                   </li>
 
-                  <li class="col">
+                  <li class="col ">
                     <div class="card border-0">
                       <img src="images/card04.png" class="card-img w-100" alt="card04">
                       <div class="card-img-overlay card-hover d-flex align-items-end">
@@ -165,7 +139,7 @@
                     </div>
                   </li>
 
-                  <li class="col">
+                  <li class="col ">
                     <div class="card border-0">
                       <img src="images/card07.png" class="card-img w-100" alt="card07">
                       <div class="card-img-overlay card-hover d-flex align-items-end">
@@ -178,7 +152,7 @@
                   </li>
               </ul>
             <!-- 按鈕 -->
-            <ul class="list-unstyled row justify-content-center my-4">
+            <ul class="list-unstyled row justify-content-center mb-0 py-4">
               <li class="col-6 col-lg-3">
                 <a href="design.html"><button type="button" class="btn btn-outline-secondary btn-theme rounded-pill py-2 w-100">查看更多作品</button></a>
               </li>
@@ -190,17 +164,16 @@
           </div>
       </section>
 
-
       <!-- 領養專區 -->
-      <section class="theme-bg">
-        <div class="container py-5 px-3">
+      <section class="theme-bg" style="background: url(images/wallpaper.png);">
+        <div class="container py-4">
           <div class="text-center mb-5">
             <img src="images/title02.png" class="mb-5 img-fluid" alt="領養專區">
             <p class="text-secondary lh-lg"> 這裡是在還在等家的浪浪們，若您正巧在找個家人，不妨來認識一下唄～</p>
           </div>
 
-          <ul class="list-unstyled row row-cols-1 row-cols-lg-3 gx-3 gy-4 mb-5">
-                <li class="col">
+          <ul class="list-unstyled row row-cols-1 row-cols-lg-3 mb-0 gx-3 gy-4">
+                <li class="col indexChange01">
                   <div class="card shadow border-0 overflow-hidden  h-100">
                     <div class="designChange01" style="background-image: url(images/dog01.png); background-size: cover;" >
                       <img src="images/card01.png" class="card-img-top change" id="chang01" alt="card01">   
@@ -210,12 +183,12 @@
                       <p class="card-text ">目前7個月大的華仔，是個愛笑的貪吃鬼，喜歡吃西瓜還有蓮霧，是一隻吃素的乖狗狗，會挑食不喜歡...</p> 
                     </div>
                     <div class="card-footer text-center bg-white border-0 py-3">
-                      <a href="#" class="theme-font-xs link-dark"><p class="mb-0 deco-line">More</p></a>
+                      <a href="#" class="theme-font-xs link-dark stretched-link"><p class="mb-0 deco-line">More</p></a>
                     </div> 
                   </div>
                 </li>
 
-                <li class="col">
+                <li class="col indexChange02">
                   <div class="card shadow border-0 overflow-hidden h-100">
                     <div class="designChange02" style="background-image: url(images/dog02.png); background-size: cover;" >
                       <img src="images/card02.png" class="card-img-top change" id="chang02" alt="card02">
@@ -226,13 +199,13 @@
                       <p class="card-text ">小呆有著圓圓的大眼睛，一歲的他來自台中，原本陪著一位老奶奶生活，上個月奶奶行動不便不能再陪...</p> 
                     </div>
                     <div class="card-footer text-center bg-white border-0 py-3">
-                      <a href="#" class="theme-font-xs link-dark"><p class="mb-0 deco-line">More</p></a>
+                      <a href="#" class="theme-font-xs link-dark stretched-link"><p class="mb-0 deco-line">More</p></a>
                     </div> 
                   </div>
                 </li>
 
-                <li class="col">
-                  <div class="card shadow border-0 overflow-hidden h-100" >
+                <li class="col indexChange03">
+                  <div class="card shadow border-0 overflow-hidden h-100">
                     <div class="designChange03" style="background-image: url(images/dog03.png); background-size: cover;">
                       <img src="images/card03.png" class="card-img-top change" id="chang03" alt="card03">
                     </div>             
@@ -241,13 +214,13 @@
                       <p class="card-text ">看起來很兇但特別怕打雷的Snow，很喜歡吃冰，冰冰的水也喜歡，如果摸他的額頭會發出吹口哨的聲...</p> 
                     </div>
                     <div class="card-footer text-center bg-white border-0 py-3">
-                      <a href="story.html" class="link-dark theme-font-xs"><p class="mb-0 deco-line">More</p></a>
+                      <a href="story.html" class="link-dark theme-font-xs stretched-link"><p class="mb-0 deco-line">More</p></a>
                     </div> 
                   </div>
                 </li>
               </ul>
 
-          <div class="col-6 col-lg-3 text-center mx-auto my-4">
+          <div class="col-6 col-lg-3 text-center mx-auto py-4">
             <a href="adopt.html"><button class="btn btn-outline-secondary btn-theme py-2 w-100" type="button">看看更多浪浪</button></a> 
           </div>
         </div>

@@ -17,12 +17,6 @@ $fs-xs: 16px;
 .bg-attachment-fixed{
     background-attachment: fixed;
 }
-.object-fit-cover{
-    object-fit: cover;
-}
-.theme-bg{
-    background-image: url(/images/wallpaper.png);
-}
 .theme-font-m{
     font-size: $fs-m;
     font-family: "Kalam", sans-serif;
@@ -39,6 +33,9 @@ $fs-xs: 16px;
     text-indent: 101%; 
     overflow: hidden;   
     white-space: nowrap; 
-    background: url(/images/logo.png) no-repeat center center/contain;
+}
+.img-change-box{
+    height: 64px;
+    width: 160px;
 }
 

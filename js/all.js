@@ -5,15 +5,15 @@ $(document).ready(function() {
             $(".drawMe").toggleClass('show');
         });
 
-    $(".designChange01").hover(
+    $(".indexChange01").hover(
         function() {  
             $("#chang01").toggleClass('hide');
         });
-    $(".designChange02").hover(
+    $(".indexChange02").hover(
         function() {  
             $("#chang02").toggleClass('hide');
         });
-    $(".designChange03").hover(
+    $(".indexChange03").hover(
         function() {  
             $("#chang03").toggleClass('hide');
         });
@@ -22,32 +22,32 @@ $(document).ready(function() {
 
     //
 
-    $(".adoptChange01").hover(
+    $(".dogChange01").hover(
         function() {  
             $("#puppy01").toggleClass('hide');
         });
     
-    $(".adoptChange02").hover(
+    $(".dogChange02").hover(
         function() {  
             $("#puppy02").toggleClass('hide');
         });
 
-    $(".adoptChange03").hover(
+    $(".dogChange03").hover(
         function() {  
             $("#puppy03").toggleClass('hide');
         });
         
-    $(".adoptChange04").hover(
+    $(".dogChange04").hover(
         function() {  
             $("#puppy04").toggleClass('hide');
         });
 
-    $(".adoptChange05").hover(
+    $(".dogChange05").hover(
         function() {  
             $("#puppy05").toggleClass('hide');
         });
 
-    $(".adoptChange06").hover(function() {  
+    $(".dogChange06").hover(function() {  
             $("#puppy06").toggleClass('hide');
         });
 
