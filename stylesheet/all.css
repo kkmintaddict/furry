@@ -12018,6 +12018,13 @@ a:hover {
   color: var(--bs-body-emphasis-color) !important;
 }
 
+.fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 :root {
   --bs-dark-rgb: 58, 58, 58;
   --bs-form-invalid-border-color: #ab3326;
