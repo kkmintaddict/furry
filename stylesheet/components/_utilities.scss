@@ -7,6 +7,8 @@ $fs-xs: 16px;
 :root{
     --bs-dark-rgb: 58, 58, 58;
     --bs-form-invalid-border-color: #ab3326;
+    --bs-warning-rgb:rgb(249 199 69);
+    --bs-waring:#f9c745;
 }
 
 .bg-cover{
@@ -38,4 +40,6 @@ $fs-xs: 16px;
     height: 64px;
     width: 160px;
 }
-
+.footer.border-top{
+    border-top: 4px var(--bs-border-style) var(--bs-warning) !important;
+}

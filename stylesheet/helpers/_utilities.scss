@@ -605,7 +605,7 @@ $utilities: map-merge(
     "text-color": (
       property: color,
       class: text,
-      values: $utilities-text-emphasis-colors
+      values: $theme-colors
     ),
     // scss-docs-end utils-color
     // scss-docs-start utils-links

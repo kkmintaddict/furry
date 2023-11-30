@@ -1,16 +1,14 @@
 $primary:  #F9C745;
 $success: #cbd0a5; 
 $danger:#ab3326d0;
-
 $primary-box-shadow: 0 0 0 0.25rem rgba(249, 199, 69, 0.25);
 $danger-box-shadow: 0 0 0 0.25rem rgba(171, 51, 38, 0.2);
 $form-border-radius:0.5rem;
 
 
-
-
 .form{
     border-radius: .3rem;
+    border-color: $primary;
     color: $dark;
     input.form-control{
         @include border-radius($form-border-radius, 0); 
@@ -40,8 +38,17 @@ $form-border-radius:0.5rem;
     resize: none;
     border-radius: $form-border-radius;
     &::placeholder {
-        color: #dee2e6;
+        color: #ced4da;
     }
+}
+.was-validated .form-select:valid,.was-validated .form-control:valid {
+    border-color: #ced4da;
+}
+.form-check-input:valid~.form-check-label.form-check-label {
+    color: #3a3a3a;
+}
+.was-validated .form-check-input:valid {
+    border-color: #ced4da;   
 }
 .was-validated .form-control:invalid{
     border-color: $danger !important;
@@ -57,4 +64,6 @@ $form-border-radius:0.5rem;
 .form-select.is-valid:not([multiple]):not([size]), .form-select.is-valid:not([multiple])[size="1"], .was-validated .form-select:valid:not([multiple]):not([size]), .was-validated .form-select:valid:not([multiple])[size="1"] {
     background-image:none !important;
 }
-
+.form.border-top{
+    border-top: 4px var(--bs-border-style) var(--bs-warning) !important;
+}
